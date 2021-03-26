@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_name": {
+            "value": "test1-website-name"
+        },
+        "frontdoors_name": {
+            "value": "test1-frontdoor-name"
+        },
+        "virtualNetworks_name": {
+            "value": "test1-vnet-name"
+        },
+        "serverfarms_plan_name": {
+            "value": "test1-serverfarm-plan-name"
+        },
+        "components_insights_name": {
+            "value": "test1-components-insights-name"
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": "test1-application-insights-smart-detection"
+        },
+        "autoscalesettings_plan_name": {
+            "value": "test1-autoscalesettings-plan-name"
+        },
+        "smartdetectoralertrules_failure_anomalies_insights_name": {
+            "value": "test1-failure-anomalies-insights-name"
+        },
+        "frontdoorwebapplicationfirewallpolicies_name": {
+            "value": "test184c65c19baa4070a5c8e8df40dfd550"
+        }
+    }
+}
