@@ -1,0 +1,22 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "cloud-save-blob-container/{name}.json",
+      "connection": "cloudsavestorage_STORAGE"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "userJson",
+      "databaseName": "ToDoList",
+      "collectionName": "Items",
+      "createIfNotExists": false,
+      "connectionStringSetting": "MyCosmosDBConnectionString",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

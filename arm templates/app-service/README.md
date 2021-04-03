@@ -7,7 +7,7 @@
 ## Azure CLI Template Validation
 
 ```powershell
-> az group deployment validate --resource-group rg_cloud_save_bg1 --template-file "./app svc banquet.json" --parameters "@app svc banquet.parameters.json"
+> az deployment group validate --resource-group rg_cloud_save_bg1 --template-file "./app svc banquet.json" --parameters "@app svc banquet.parameters.json"
 ```
 
 ## Azure PowerShell  Template Validation
@@ -20,9 +20,7 @@ Test-AzResourceGroupDeployment -ResourceGroupName rg_cloud_save_bg1 -TemplateFil
 
 ```
 > az deployment group create --name App-Svc-Deployment --resource-group rg_cloud_save_bg1 --template-file "./app svc banquet.json"  --parameters "@app svc banquet.parameters.json"
-> az deployment group create --name Test-App-Svc-Deployment --resource-group rg_cloud_save_bg1 --template-file "./app svc banquet.json"  --parameters "@app svc banquet.parameters.json"
 
-> az deployment sub create --name "rg_cloud_save_bg1" --location canadaeast --template-file "./app-svc.json"  --parameters "@app-svc.parameters.json"
 > az group show --name rg_cloud_save_bg1
 ```
 

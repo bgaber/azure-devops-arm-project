@@ -17,3 +17,13 @@ Three ARM templates were required to build the infrastructure required in the gi
   * Enable Geo-Redundancy
   * API type should be Core (SQL)
 3. The third ARM template creates a Storage Account with Blob Storage.
+
+The installation instructions for each ARM template is found in its sub-directory.
+
+Azure Functions
+---------------
+Two Azure functions were created for the Web Application.
+
+1. The first function is a BLOB trigger function.  It has an Input binding to a BLOB Storage Container and an Output binding to a Cosmos DB.  It is triggered when create-new-user.php uploads a new object into the 
+BLOB Storage Container and if the object is JSON then it is written to Cosmos DB.
+2. The second function is called by show_user.html and retrieves all JSON documents from Cosmos DB.

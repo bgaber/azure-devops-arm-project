@@ -6,7 +6,7 @@
             "value": "canadaeast"
         },
         "storageAccountName": {
-            "value": "esnap"
+            "value": "cloudsavestorage"
         },
         "accountType": {
             "value": "Standard_LRS"

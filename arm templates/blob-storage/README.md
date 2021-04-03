@@ -19,10 +19,8 @@ Test-AzResourceGroupDeployment -ResourceGroupName rg_cloud_save_bg1 -TemplateFil
 ## Azure CLI Template Deployment
 
 ```
-> az deployment group create --name App-Svc-Deployment --resource-group rg_cloud_save_bg1 --template-file "./blob-storage.json"  --parameters "@blob-storage.parameters.json"
-> az deployment group create --name Test-App-Svc-Deployment --resource-group rg_cloud_save_bg1 --template-file "./blob-storage.json"  --parameters "@blob-storage.parameters.json"
+> az deployment group create --name Blob-Storage-Deployment --resource-group rg_cloud_save_bg1 --template-file "./blob-storage.json"  --parameters "@blob-storage.parameters.json"
 
-> az deployment sub create --name "rg_cloud_save_bg1" --location canadaeast --template-file "./blob-storage.json"  --parameters "@blob-storage.parameters.json"
 > az group show --name rg_cloud_save_bg1
 ```
 

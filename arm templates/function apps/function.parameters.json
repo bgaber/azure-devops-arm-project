@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "0500c4e3-0385-4217-89b5-fabe699af50c"
+        },
+        "name": {
+            "value": "cloud-save-function-app"
+        },
+        "location": {
+            "value": "Canada Central"
+        },
+        "hostingPlanName": {
+            "value": "ASP-rgappsvcdeploymentbg10-a3b3"
+        },
+        "serverFarmResourceGroup": {
+            "value": "rg_app_svc_deployment_bg10"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "storageAccountName": {
+            "value": "storageaccountrgclo87d6"
+        },
+        "use32BitWorkerProcess": {
+            "value": false
+        },
+        "linuxFxVersion": {
+            "value": "Python|3.8"
+        }
+    }
+}

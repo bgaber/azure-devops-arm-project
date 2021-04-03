@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "accountName": {
+            "value": "cloud-save-cosmosdb-acct"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "locationName": {
+            "value": "Canada Central"
+        },
+        "defaultExperience": {
+            "value": "Core (SQL)"
+        },
+        "isZoneRedundant": {
+            "value": "false"
+        },
+        "pairedLocation": {
+            "value": "canadaeast"
+        },
+        "pairedLocationName": {
+            "value": "Canada East"
+        },
+        "databaseName": {
+            "value": "cloud-save-db"
+        },
+        "containerName": {
+            "value": "Users"
+        },
+        "partitionKey": {
+            "value": "uid"
+        }
+    }
+}
