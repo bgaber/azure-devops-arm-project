@@ -6,7 +6,7 @@
             "value": "canadaeast"
         },
         "storageAccountName": {
-            "value": "cloudsavestorage"
+            "value": "cloudsavestorage4test"
         },
         "accountType": {
             "value": "Standard_LRS"

@@ -7,7 +7,7 @@
 ## Azure CLI Template Validation
 
 ```powershell
-> az group deployment validate --resource-group rg_cloud_save_bg1 --template-file "./blob-storage.json" --parameters "@blob-storage.parameters.json"
+> az deployment group validate --resource-group rg_cloud_save_bg1 --template-file "./blob-storage.json" --parameters "@blob-storage.parameters.json"
 ```
 
 ## Azure PowerShell  Template Validation
