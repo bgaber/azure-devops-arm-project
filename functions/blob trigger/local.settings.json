@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=someStorageAccountName;AccountKey=someStorageAccountKey;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "cloudsavestorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=someStorageAccountName;AccountKey=someStorageAccountKey;EndpointSuffix=core.windows.net",
+    "MyCosmosDBConnectionString": "AccountEndpoint=https://someCosmosaccountname.documents.azure.com:443/;AccountKey=someCosmosConnectionAccountKey;"
+  }
+}

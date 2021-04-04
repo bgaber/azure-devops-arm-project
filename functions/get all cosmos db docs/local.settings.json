@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "COSMOS_DB_HOST": "https://cloud-save-cosmosdb-acct.documents.azure.com:443/",
+    "COSMOS_MASTER_KEY": "",
+    "COSMOS_DATABASE_ID": "cloud-save-db",
+    "COSMOS_CONTAINER_ID": "Users",
+    "COSMOS_PREFIX": "uid"
+  }
+}

@@ -1,0 +1,1 @@
+These files came from the VS Code Azure Functions extension
